@@ -6,22 +6,6 @@
     --dark: #111111;
 }
 
-.home-btn{
-    display:inline-block;
-    padding:12px 28px;
-    background:#28a745;
-    color:#fff;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:600;
-    transition:0.3s ease;
-}
-
-.home-btn:hover{
-    background:#000;
-    color:#fff;
-    text-decoration:none;
-}
 
 .back-to-top {
     position: fixed;
