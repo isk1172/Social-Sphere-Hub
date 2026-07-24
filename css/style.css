@@ -7,29 +7,20 @@
 }
 
 .home-btn{
+    display:inline-block;
+    padding:12px 28px;
     background:#28a745;
     color:#fff;
-    border:1px solid #28a745;
-    transition:all .3s ease;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+    transition:0.3s ease;
 }
 
 .home-btn:hover{
     background:#000;
-    border-color:#000;
     color:#fff;
-}
-
-.home-btn{
-    background:#28a745;
-    color:#fff;
-    border:1px solid #28a745;
-    transition:all .3s ease;
-}
-
-.home-btn:hover{
-    background:#000;
-    border-color:#000;
-    color:#fff;
+    text-decoration:none;
 }
 
 .back-to-top {
