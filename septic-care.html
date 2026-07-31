@@ -27,75 +27,335 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Septic Tank Maintenance Solution</title>
-
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
 body{
-    margin:0;
-    background:#f5f5f5;
-    text-align:center;
+background:#f4f8f3;
+color:#333;
+line-height:1.7;
 }
 
-.image-container{
-    position:relative;
-    display:inline-block;
-}
+.hero{
 
-.image-container img{
-    width:auto;          /* Show original width */
-    max-width:none;      /* Don't limit the width */
-    height:auto;
-    display:block;
-}
+background:
+linear-gradient(rgba(0,70,40,.65),rgba(0,70,40,.65)),
+url("https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80");
 
-/* Clickable hotspot */
-.hotspot{
-    position:absolute;
-
-    left:5%;
-    bottom:6.8%;
-    width:36%;
-    height:11%;
-
-    border:7px solid #FFD700;
-    border-radius:12px;
-
-    cursor:pointer;
-
-    animation:pulse 1.6s infinite;
-}
-
-@keyframes pulse{
-
-0%{
-    box-shadow:0 0 0 0 rgba(255,215,0,.8);
-    transform:scale(1);
-}
-
-50%{
-    box-shadow:0 0 25px 12px rgba(255,215,0,.4);
-    transform:scale(1.03);
-}
-
-100%{
-    box-shadow:0 0 0 0 rgba(255,215,0,0);
-    transform:scale(1);
-}
+background-size:cover;
+background-position:center;
+padding:90px 20px;
+text-align:center;
+color:white;
 
 }
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+max-width:800px;
+margin:auto;
+}
+
+.btn{
+
+display:inline-block;
+margin-top:35px;
+padding:18px 45px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:22px;
+font-weight:bold;
+transition:.3s;
+
+}
+
+.btn:hover{
+background:#e65100;
+}
+
+.section{
+
+max-width:1200px;
+margin:auto;
+padding:70px 20px;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 18px rgba(0,0,0,.08);
+text-align:center;
+
+}
+
+.card i{
+
+font-size:55px;
+color:#2e7d32;
+margin-bottom:15px;
+
+}
+
+.card h3{
+
+margin-bottom:12px;
+
+}
+
+.image-section{
+
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:40px;
+
+}
+
+.image-section img{
+
+width:100%;
+max-width:520px;
+border-radius:12px;
+
+}
+
+.text{
+
+flex:1;
+
+}
+
+.text h2{
+
+margin-bottom:20px;
+
+}
+
+.footer{
+
+background:#1b5e20;
+padding:35px;
+text-align:center;
+color:white;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:34px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.btn{
+
+width:100%;
+max-width:320px;
+
+}
+
+}
+
 </style>
+
 </head>
 
 <body>
 
-<div class="image-container">
+<section class="hero">
 
-<img src="img/septic.png" alt="Septic care">
+<h1>Keep Your Septic System Healthy</h1>
 
-<a class="hotspot"
-href="https://e86a2o56-1dp1k1dlmx8s27taq.hop.clickbank.net"
-target="_blank"></a>
+<p>
+
+Learn practical septic maintenance tips and explore solutions that may help keep your septic system operating efficiently.
+
+</p>
+
+<a href="YOUR_CLICKBANK_URL" target="_blank" class="btn">
+
+Learn More
+
+</a>
+
+</section>
+
+<section class="section">
+
+<h2 style="text-align:center;margin-bottom:45px;">
+
+Why Septic Care Matters
+
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<i class="bi bi-house-heart-fill"></i>
+
+<h3>Protect Your Home</h3>
+
+<p>
+Regular maintenance can help support the long-term performance of your septic system.
+</p>
 
 </div>
+
+<div class="card">
+
+<i class="bi bi-droplet-half"></i>
+
+<h3>Healthy Drainage</h3>
+
+<p>
+Good septic habits contribute to efficient wastewater management.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="bi bi-tree-fill"></i>
+
+<h3>Environmental Care</h3>
+
+<p>
+Proper septic maintenance helps reduce unnecessary environmental impact.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="bi bi-tools"></i>
+
+<h3>Routine Maintenance</h3>
+
+<p>
+Following recommended maintenance schedules may help avoid preventable issues.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section image-section">
+
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80">
+
+<div class="text">
+
+<h2>Simple Maintenance Tips</h2>
+
+<p>
+
+✔ Avoid flushing non-biodegradable products.<br><br>
+
+✔ Follow recommended inspection and pumping schedules.<br><br>
+
+✔ Use water efficiently to reduce system strain.<br><br>
+
+✔ Learn about maintenance options that fit your household.
+
+</p>
+
+<a href="YOUR_CLICKBANK_URL"
+target="_blank"
+class="btn">
+
+View Recommended Solution
+
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 style="text-align:center;margin-bottom:40px;">
+
+Homeowners Choose to Learn More Because...
+
+</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<i class="bi bi-check-circle-fill"></i>
+
+<h3>Easy To Understand</h3>
+
+</div>
+
+<div class="card">
+
+<i class="bi bi-book-fill"></i>
+
+<h3>Helpful Information</h3>
+
+</div>
+
+<div class="card">
+
+<i class="bi bi-award-fill"></i>
+
+<h3>Designed For Homeowners</h3>
+
+</div>
+
+<div class="card">
+
+<i class="bi bi-arrow-repeat"></i>
+
+<h3>Supports Ongoing Maintenance</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+
+Affiliate Disclosure: This page contains affiliate links. If you make a qualifying purchase, I may earn a commission at no additional cost to you.
+
+</p>
+
+</footer>
 
 </body>
 </html>
